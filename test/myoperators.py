@@ -9,3 +9,5 @@ print(sum)
 
 num1= 4
 print(num1**2)
+
+#logical operators

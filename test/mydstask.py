@@ -34,5 +34,8 @@ print(my_ds[4][2::-1])
 #task 6
 #Change the name “John” to “Jane” .
 my_ds = [23, "Jane", (560), ["Lesson", "Maths", {"currency" : "KES"}], 987, (76,"John")]
-
+my_ds[5]=list(my_ds[5])
+my_ds[5][1]="Jane"
+my_ds[5]=tuple(my_ds[5])
+# my_ds[-1]=(76,"Jane")
 print(my_ds)
