@@ -73,12 +73,13 @@ else:
 
 netsalary = grossSalary-(nhifContribution + nhdf + nssf + payee)
 
-print(f"Net salary: {netsalary}")
-print(f"payee: {payee}")
-print(f"nhif: {nhifContribution}")
+
 print(f"nhdf: {nhdf}")
 print(f"nssf: {nssf}")
 print(f"taxableincome: {taxable_income}")
+print(f"payee: {payee}")
+print(f"nhif: {nhifContribution}")
+print(f"Net salary: {netsalary}")
 
         
 
